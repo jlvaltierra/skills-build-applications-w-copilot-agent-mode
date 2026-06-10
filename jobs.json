@@ -1,0 +1,215 @@
+﻿[
+    {
+        "id":  80470862095,
+        "run_id":  27249278440,
+        "workflow_name":  "Step 2",
+        "head_branch":  "build-octofit-app",
+        "run_url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/runs/27249278440",
+        "run_attempt":  2,
+        "node_id":  "CR_kwDOS1-fGs8AAAASvG_pDw",
+        "head_sha":  "96e868bafd7ce90d757f40364a561523707817ca",
+        "url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/jobs/80470862095",
+        "html_url":  "https://github.com/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/runs/27249278440/job/80470862095",
+        "status":  "completed",
+        "conclusion":  "success",
+        "created_at":  "2026-06-10T02:43:27Z",
+        "started_at":  "2026-06-10T02:43:28Z",
+        "completed_at":  "2026-06-10T02:43:32Z",
+        "name":  "Find Exercise Issue / Find exercise by issue title",
+        "steps":  [
+                      {
+                          "name":  "Set up job",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  1,
+                          "started_at":  "2026-06-10T02:43:29Z",
+                          "completed_at":  "2026-06-10T02:43:30Z"
+                      },
+                      {
+                          "name":  "Run actions/github-script@v8",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  2,
+                          "started_at":  "2026-06-10T02:43:30Z",
+                          "completed_at":  "2026-06-10T02:43:30Z"
+                      },
+                      {
+                          "name":  "Complete job",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  3,
+                          "started_at":  "2026-06-10T02:43:30Z",
+                          "completed_at":  "2026-06-10T02:43:30Z"
+                      }
+                  ],
+        "check_run_url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/check-runs/80470862095",
+        "labels":  [
+                       "ubuntu-latest"
+                   ],
+        "runner_id":  1000000007,
+        "runner_name":  "GitHub Actions 1000000007",
+        "runner_group_id":  0,
+        "runner_group_name":  "GitHub Actions"
+    },
+    {
+        "id":  80470871437,
+        "run_id":  27249278440,
+        "workflow_name":  "Step 2",
+        "head_branch":  "build-octofit-app",
+        "run_url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/runs/27249278440",
+        "run_attempt":  2,
+        "node_id":  "CR_kwDOS1-fGs8AAAASvHANjQ",
+        "head_sha":  "96e868bafd7ce90d757f40364a561523707817ca",
+        "url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/jobs/80470871437",
+        "html_url":  "https://github.com/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/runs/27249278440/job/80470871437",
+        "status":  "completed",
+        "conclusion":  "failure",
+        "created_at":  "2026-06-10T02:43:32Z",
+        "started_at":  "2026-06-10T02:43:34Z",
+        "completed_at":  "2026-06-10T02:43:41Z",
+        "name":  "Check step work",
+        "steps":  [
+                      {
+                          "name":  "Set up job",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  1,
+                          "started_at":  "2026-06-10T02:43:34Z",
+                          "completed_at":  "2026-06-10T02:43:36Z"
+                      },
+                      {
+                          "name":  "Checkout",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  2,
+                          "started_at":  "2026-06-10T02:43:36Z",
+                          "completed_at":  "2026-06-10T02:43:36Z"
+                      },
+                      {
+                          "name":  "Get response templates",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  3,
+                          "started_at":  "2026-06-10T02:43:36Z",
+                          "completed_at":  "2026-06-10T02:43:37Z"
+                      },
+                      {
+                          "name":  "Find last comment",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  4,
+                          "started_at":  "2026-06-10T02:43:37Z",
+                          "completed_at":  "2026-06-10T02:43:37Z"
+                      },
+                      {
+                          "name":  "Update comment - checking work",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  5,
+                          "started_at":  "2026-06-10T02:43:37Z",
+                          "completed_at":  "2026-06-10T02:43:38Z"
+                      },
+                      {
+                          "name":  "Check React 19 dependency",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  6,
+                          "started_at":  "2026-06-10T02:43:38Z",
+                          "completed_at":  "2026-06-10T02:43:38Z"
+                      },
+                      {
+                          "name":  "Check Express dependency",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  7,
+                          "started_at":  "2026-06-10T02:43:38Z",
+                          "completed_at":  "2026-06-10T02:43:38Z"
+                      },
+                      {
+                          "name":  "Check Mongoose dependency",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  8,
+                          "started_at":  "2026-06-10T02:43:38Z",
+                          "completed_at":  "2026-06-10T02:43:38Z"
+                      },
+                      {
+                          "name":  "Update comment - step results",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  9,
+                          "started_at":  "2026-06-10T02:43:38Z",
+                          "completed_at":  "2026-06-10T02:43:39Z"
+                      },
+                      {
+                          "name":  "Fail job if not all checks passed",
+                          "status":  "completed",
+                          "conclusion":  "failure",
+                          "number":  10,
+                          "started_at":  "2026-06-10T02:43:39Z",
+                          "completed_at":  "2026-06-10T02:43:39Z"
+                      },
+                      {
+                          "name":  "Post Get response templates",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  19,
+                          "started_at":  "2026-06-10T02:43:39Z",
+                          "completed_at":  "2026-06-10T02:43:39Z"
+                      },
+                      {
+                          "name":  "Post Checkout",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  20,
+                          "started_at":  "2026-06-10T02:43:39Z",
+                          "completed_at":  "2026-06-10T02:43:40Z"
+                      },
+                      {
+                          "name":  "Complete job",
+                          "status":  "completed",
+                          "conclusion":  "success",
+                          "number":  21,
+                          "started_at":  "2026-06-10T02:43:40Z",
+                          "completed_at":  "2026-06-10T02:43:40Z"
+                      }
+                  ],
+        "check_run_url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/check-runs/80470871437",
+        "labels":  [
+                       "ubuntu-latest"
+                   ],
+        "runner_id":  1000000008,
+        "runner_name":  "GitHub Actions 1000000008",
+        "runner_group_id":  0,
+        "runner_group_name":  "GitHub Actions"
+    },
+    {
+        "id":  80470888512,
+        "run_id":  27249278440,
+        "workflow_name":  "Step 2",
+        "head_branch":  "build-octofit-app",
+        "run_url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/runs/27249278440",
+        "run_attempt":  2,
+        "node_id":  "CR_kwDOS1-fGs8AAAASvHBQQA",
+        "head_sha":  "96e868bafd7ce90d757f40364a561523707817ca",
+        "url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/jobs/80470888512",
+        "html_url":  "https://github.com/jlvaltierra/skills-build-applications-w-copilot-agent-mode/actions/runs/27249278440/job/80470888512",
+        "status":  "completed",
+        "conclusion":  "skipped",
+        "created_at":  "2026-06-10T02:43:41Z",
+        "started_at":  "2026-06-10T02:43:41Z",
+        "completed_at":  "2026-06-10T02:43:41Z",
+        "name":  "Post next step content",
+        "steps":  [
+
+                  ],
+        "check_run_url":  "https://api.github.com/repos/jlvaltierra/skills-build-applications-w-copilot-agent-mode/check-runs/80470888512",
+        "labels":  [
+                       "ubuntu-latest"
+                   ],
+        "runner_id":  null,
+        "runner_name":  null,
+        "runner_group_id":  null,
+        "runner_group_name":  null
+    }
+]
